@@ -61,3 +61,10 @@ fun isPasswordValid(userPassword: String): Boolean{
 //        return true
 //    }
 }
+class Menuitem(name:String,price:Double,cusine:String){
+    fun itemBelowPrice(){
+        val certainPrice = 1200.0
+        val greater = Menuitem.filter{ it.price > certainPrice}
+        return greater
+    }
+}

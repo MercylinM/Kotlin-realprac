@@ -25,8 +25,8 @@ fun main(){
     println(fullName.endsWith("nzo"))
 
     var statement = "Phoebe is our class rep."
-    statement = statement.replace("Phoebe", "Vicky")
-    println(statement)
+//    statement = statement.replace("Phoebe", "Vicky")
+//    println(statement)
 
     var words = statement.split("b")
     println(words)
